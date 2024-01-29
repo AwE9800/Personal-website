@@ -2,6 +2,7 @@
 
 -   [Overview](#overview)
     -   [The challenge](#the-challenge)
+    -   [Installation](#Installation)
     -   [Screenshot](#screenshot)
     -   [Links](#links)
 -   [My process](#my-process)
@@ -39,6 +40,23 @@ Code Standard and Documentation
 
 Write clean and well-organized code. Comment the code where necessary to explain complex or important parts.
 Include a README file that describes the project, how to run it, and an overview of its features.
+
+### Installation
+
+1.  Clone the repo
+    ```sh
+    git clone https://github.com/AwE9800/personal-website.git
+    ```
+2.  Install NPM packages
+    ```sh
+    cd personal-website
+    npm install
+    ```
+3.  Run projekt
+
+````sh
+    npm run dev
+	```
 
 ### Screenshot
 
@@ -87,3 +105,4 @@ Currently, two official plugins are available:
 
 -   [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 -   [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+````
