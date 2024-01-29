@@ -80,8 +80,8 @@ I enjoy using React, but I don't feel confident using Redux and fetching data fr
 
 ## Author
 
--   Website - [Alvin Samuelsson](https://www.your-site.com)
--   Linkedin - [@alvin-samuelsson](https://www.linkedin.com/in/alvin-samuelsson-7b07032a9/)
+-   Website - [Min hemsida](https://www.your-site.com)
+-   Linkedin - [Alvin Samuelsson](https://www.linkedin.com/in/alvin-samuelsson-7b07032a9/)
 
 ## Acknowledgments
 

@@ -1,4 +1,4 @@
-import './Portfolio-Card.css';
+import './Portfolio-card.css';
 
 const PortfolioCard = ({ name, img, info, repo, site }) => {
     return (
