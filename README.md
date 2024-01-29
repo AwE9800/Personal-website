@@ -42,20 +42,12 @@ Include a README file that describes the project, how to run it, and an overview
 
 ### Screenshot
 
-![](./screenshot.jpg)
-
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it.
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+![image](https://github.com/AwE9800/personal-website/assets/143619434/2d4f096f-7219-453a-9f3b-319d63585412)
 
 ### Links
 
--   Solution URL: [Add solution URL here](https://your-solution-url.com)
--   Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+-   Live Site URL: [Live site](https://personal-website-m693.vercel.app/)
+-   FigJam sketch: [Figjam](https://www.figma.com/file/MEMxK28ZetnF98zNjhj7Qw/React-Individuell-uppgift-del-2?type=whiteboard&node-id=0%3A1&t=mMeyq1yDZprLheee-1)
 
 ## My process
 
@@ -72,7 +64,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### What I learned
 
-Throughout this project, I have learned how to use React and how to utilize routes. I have also experimented with using Redux and API.
+This was my first react projekt. Throughout this project, I have learned how to use React and how to utilize routes. I have also experimented with using Redux and API.
 
 ### Continued development
 
@@ -80,12 +72,12 @@ I enjoy using React, but I don't feel confident using Redux and fetching data fr
 
 ## Author
 
--   Website - [Min hemsida](https://www.your-site.com)
+-   Website - [Min hemsida](https://personal-website-m693.vercel.app/)
 -   Linkedin - [Alvin Samuelsson](https://www.linkedin.com/in/alvin-samuelsson-7b07032a9/)
 
 ## Acknowledgments
 
-I want to extend a big thank you to my classmates Dennis, Eric, Kalle, and Pontus, who have supported and helped me throughout the project.
+I want to extend a big thank you to my classmates [Dennis](https://www.linkedin.com/in/dennis-ehnwall-09524b29b/), [Eric](https://www.linkedin.com/in/eric-classon-001b131a2/), [Kalle](https://www.linkedin.com/in/kalle-pettersson-b74724294/), and [Pontus](https://www.linkedin.com/in/pontus-boman-aa85131bb/), who have supported and helped me throughout the project.
 
 ## React-Vite
 
