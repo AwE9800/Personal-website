@@ -1,0 +1,48 @@
+.Mobile-nav {
+    position: absolute;
+    top: 8.2rem;
+    right: 0rem;
+    left: 0rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    background-color: var(--text);
+    animation: slideIn 0.2s ease-in forwards;
+}
+
+.Mobile-nav > a {
+    color: var(--background);
+    border: 1px solid black;
+    box-shadow: 2px 2px 5px black;
+    text-align: center;
+    padding-block: 0.5rem;
+    padding-inline: 2rem;
+    border-radius: 0.4rem;
+    transition: all 0.5s ease;
+}
+
+.Mobile-nav > a:hover {
+    background-color: var(--background);
+    color: var(--primary-color);
+}
+.Mobile-nav > span {
+    width: 100%;
+    height: 0.05rem;
+    background-color: black;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translate(100%, 0%);
+    }
+    to {
+    }
+}
+
+@media (min-width: 941px) {
+    .Mobile-nav {
+        display: none;
+    }
+}

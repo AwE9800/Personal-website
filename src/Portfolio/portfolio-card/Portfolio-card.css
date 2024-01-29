@@ -1,0 +1,45 @@
+.Card-container {
+    background-color: var(--text);
+    color: var(--background);
+    font-weight: 400;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2rem;
+    gap: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.Card-container > img {
+    object-fit: cover;
+    aspect-ratio: 16/9;
+    object-position: top;
+    border-radius: 0.5rem;
+    width: 100%;
+}
+
+.links-repo-site {
+    display: flex;
+    gap: 2rem;
+}
+
+.name-info {
+    margin-bottom: 1rem;
+}
+
+.Card-container > .links-repo-site > a {
+    width: 100%;
+    font-weight: bold;
+    text-align: center;
+    border: 1px solid black;
+    box-shadow: 2px 2px 5px black;
+    padding-block: 0.9rem;
+    padding-inline: 0.4rem;
+    border-radius: 0.4rem;
+    transition: all 0.5s ease;
+}
+.Card-container > .links-repo-site > a:hover {
+    background-color: var(--background);
+    color: var(--text);
+}

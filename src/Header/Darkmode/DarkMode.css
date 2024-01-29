@@ -1,0 +1,25 @@
+.dark-mode {
+    display: flex;
+    justify-content: end;
+    padding: 0.4rem;
+    position: absolute;
+    top: 0rem;
+    right: 0rem;
+}
+
+.dark-mode-btn {
+    color: var(--text);
+    background-color: var(--background);
+    padding-inline: 0.4rem;
+    border-radius: 0.3rem;
+    border: 1px solid black;
+    box-shadow: 2px 2px 5px black;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.dark-mode-btn:hover {
+    background-color: var(--text);
+    color: var(--background);
+}

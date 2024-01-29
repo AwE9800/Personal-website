@@ -1,0 +1,82 @@
+.Info-card {
+    margin-bottom: 5rem;
+    padding: 2rem;
+    background-color: var(--background);
+    display: grid;
+    gap: 10rem;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.background-svg {
+    position: absolute;
+    top: 6rem;
+    left: 20rem;
+}
+
+.Info-card-image > img {
+    object-fit: cover;
+    border-radius: 0.5rem;
+    width: 100%;
+}
+.Info-card-text {
+    z-index: 1000;
+}
+.Info-card-image {
+    z-index: 1000;
+}
+
+.Info-card-text > h1 > .name {
+    animation: colorShift 5s infinite;
+}
+.Info-card-text > h1 > .hello {
+    color: var(--primary-color);
+}
+
+@keyframes colorShift {
+    0% {
+        color: var(--accent);
+    }
+    50% {
+        color: var(--blue);
+    }
+    100% {
+        color: var(--accent);
+    }
+}
+
+@media (max-width: 1230px) {
+    .Info-card {
+        grid-template-columns: 1fr;
+        padding-top: 4rem;
+    }
+
+    .Info-card-text > h1 {
+        font-size: 3.128rem;
+    }
+}
+
+@media (min-width: 1231px) {
+    .Info-card {
+        padding-inline: 10rem;
+    }
+
+    .Info-card-text > h1 {
+        font-size: 3.128rem;
+    }
+}
+
+@media (max-width: 1435px) {
+    .background-svg {
+        position: absolute;
+        top: 0.2rem;
+    }
+}
+
+@media (max-width: 1230px) {
+    .background-svg {
+        display: none;
+    }
+}

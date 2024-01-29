@@ -1,0 +1,18 @@
+.aboutMe-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-inline: 2rem;
+    padding-block: 6rem;
+    gap: 4rem;
+    margin-bottom: 5rem;
+}
+
+@media (max-width: 1266px) {
+    .aboutMe-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding-inline: 2rem;
+        gap: 4rem;
+        margin-bottom: 5rem;
+    }
+}

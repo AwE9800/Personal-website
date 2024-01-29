@@ -1,0 +1,39 @@
+.github-link {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--background);
+    text-align: center;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+    padding-inline: 2rem;
+    padding-block: 1rem;
+    font-weight: bold;
+}
+
+.github-link > ul {
+    background-color: var(--text);
+    color: var(--background);
+    display: grid;
+    gap: 1rem;
+    margin-top: 2rem;
+    border: 1px solid black;
+    box-shadow: 2px 2px 5px black;
+    border-radius: 0.4rem;
+    padding-block: 1rem;
+    padding-inline: 2rem;
+}
+
+.github-link > ul > li {
+    border: 1px solid black;
+    box-shadow: 2px 2px 5px black;
+    border-radius: 0.4rem;
+    width: 100%;
+    padding-block: 0.4rem;
+}
+
+.github-link > ul > li:hover {
+    background-color: var(--background);
+    color: var(--text);
+}

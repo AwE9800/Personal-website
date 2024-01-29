@@ -1,0 +1,34 @@
+.footer {
+    background: linear-gradient(10deg, var(--background), var(--text));
+    color: var(--text-secondary);
+    padding-block: 2rem;
+    border-top: 10px solid white;
+}
+
+.footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 82rem;
+    padding-inline: 2rem;
+}
+
+.media-links {
+    display: flex;
+    gap: 2rem;
+}
+
+.media-links > a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (max-width: 500px) {
+    .footer-container {
+        display: grid;
+        place-content: center;
+        gap: 2rem;
+    }
+}
