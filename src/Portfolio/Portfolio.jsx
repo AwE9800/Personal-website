@@ -50,7 +50,9 @@ const Portfolio = () => {
                     <PortfolioCard key={item.id} name={item.name} img={item.img} info={item.info} repo={item.repo} site={item.site} />
                 ))}
             </div>
-            <Fetch />
+            <div className="fetch">
+                <Fetch />
+            </div>
         </section>
     );
 };

@@ -31,8 +31,8 @@
 .Info-card-text > h1 > .name {
     animation: colorShift 5s infinite;
 }
-.Info-card-text > h1 > .hello {
-    color: var(--primary-color);
+.Info-card-text > .hello {
+    font-size: 5rem;
 }
 
 @keyframes colorShift {

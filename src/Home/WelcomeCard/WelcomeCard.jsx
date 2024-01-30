@@ -14,9 +14,7 @@ const WelcomeCard = () => {
                 />
             </svg>
             <div className="Info-card-text">
-                <h1>
-                    <span className="hello">Hello!</span>
-                </h1>
+                <h1 className="hello">Hello!</h1>
                 <h1>
                     I'm Alvin <span className="name">Samuelsson.</span>
                 </h1>

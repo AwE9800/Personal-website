@@ -7,6 +7,7 @@ const Fetch = () => {
 
     // State hook to store the fetched data from the API
     const [data, setData] = useState([]);
+    const [repoLength, setRepoLength] = useState(0);
 
     // useEffect hook to perform the data fetching when the component mounts
     useEffect(() => {
@@ -15,13 +16,16 @@ const Fetch = () => {
             .then(resp => resp.json()) // Parse the response as JSON
 
             .then(data => {
-                setData(data); // Update the state with the fetched data
+                setRepoLength(data.length);
+                setData(data.slice(0, 6)); // Update the state with the fetched data
                 console.log(data); // Log the fetched data to the console
             });
     }, []); // Empty dependency array ensures the effect runs only once when the component mounts
     return (
         <div className="github-link">
-            <p>If you would like to see more of my work, feel free to check out my GitHub page. I have currently {data.length} repos:</p>
+            <p>
+                If you would like to see more of my work, feel free to check out my GitHub page. I have currently {repoLength} repositorys:
+            </p>
             <ul>
                 {data.map(repo => (
                     <li key={repo.id}>

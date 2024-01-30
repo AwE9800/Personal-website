@@ -1,6 +1,8 @@
 .Card-container {
-    background-color: var(--text);
-    color: var(--background);
+    background-color: var(--background);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+        rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    box-shadow: 1px;
     font-weight: 400;
     text-align: center;
     display: flex;
@@ -31,15 +33,15 @@
 .Card-container > .links-repo-site > a {
     width: 100%;
     font-weight: bold;
-    text-align: center;
-    border: 1px solid black;
-    box-shadow: 2px 2px 5px black;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+        rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    /* border: 1px solid black; */
     padding-block: 0.9rem;
     padding-inline: 0.4rem;
     border-radius: 0.4rem;
-    transition: all 0.5s ease;
+    transition: all 0.4s ease-in-out;
 }
 .Card-container > .links-repo-site > a:hover {
-    background-color: var(--background);
-    color: var(--text);
+    background-color: var(--text);
+    color: var(--background);
 }

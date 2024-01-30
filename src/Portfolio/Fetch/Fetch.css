@@ -1,39 +1,64 @@
 .github-link {
     display: flex;
     flex-direction: column;
-    background-color: var(--background);
-    text-align: center;
+    background-color: var(--text);
+    color: var(--background);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+        rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     align-items: center;
-    gap: 0.5rem;
+    gap: 5rem;
     margin-top: 3rem;
     margin-bottom: 5rem;
     padding-inline: 2rem;
-    padding-block: 1rem;
-    font-weight: bold;
+    padding-block: 4rem;
+    border-radius: 0.5rem;
+}
+
+.github-link > p {
+    font-size: 1.5rem;
 }
 
 .github-link > ul {
-    background-color: var(--text);
-    color: var(--background);
+    width: 100%;
+    text-align: center;
     display: grid;
+    grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
-    margin-top: 2rem;
-    border: 1px solid black;
-    box-shadow: 2px 2px 5px black;
-    border-radius: 0.4rem;
-    padding-block: 1rem;
-    padding-inline: 2rem;
+    align-items: center;
+    justify-content: center;
 }
 
 .github-link > ul > li {
-    border: 1px solid black;
-    box-shadow: 2px 2px 5px black;
+    background-color: var(--background);
+    color: var(--text);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+        rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     border-radius: 0.4rem;
-    width: 100%;
-    padding-block: 0.4rem;
+    padding-block: 7rem;
+    padding-inline: 4rem;
+    transition: all 0.4s ease-in-out;
+    font-size: 1.2rem;
 }
 
 .github-link > ul > li:hover {
-    background-color: var(--background);
-    color: var(--text);
+    background-color: var(--text);
+    color: var(--background);
+}
+
+@media (max-width: 1458px) {
+    .github-link > ul {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (max-width: 1020px) {
+    .github-link > ul {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .github-link > ul > li {
+        padding-block: 5rem;
+    }
+    .github-link > p {
+        font-size: 1rem;
+    }
 }

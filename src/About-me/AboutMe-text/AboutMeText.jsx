@@ -4,6 +4,7 @@ const AboutMeText = () => {
     return (
         <section className="AboutMeText">
             <h2>Me</h2>
+            <br />
             <p>
                 Hello there! I'm Alvin Samuelsson, a passionate frontend developer currently in my first year at KYH. I have a strong love
                 for creating web experiences. My journey in frontend development has been filled with exciting discoveries and challenges.
