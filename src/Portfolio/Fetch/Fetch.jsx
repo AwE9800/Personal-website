@@ -35,7 +35,7 @@ const Fetch = () => {
                     </li>
                 ))}
             </ul>
-            <a href="https://github.com/AwE9800" target="_blank">
+            <a className="link-to-github" href="https://github.com/AwE9800" target="_blank">
                 <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24">
                     <path
                         fill="currentColor"

@@ -2,8 +2,9 @@
 
 :root[data-theme='light'] {
     --background: rgb(206, 226, 249);
-    --text: rgb(51, 88, 128);
+    --text: rgb(15, 46, 80);
     --background-transparent: color-mix(in srgb, var(--background) 90%, transparent);
+
     --text-secondary: rgb(255, 255, 255);
     --accent: rgba(0, 51, 255, 0.82);
     --blue: rgb(4, 223, 252);
@@ -45,8 +46,9 @@
 body {
     background-color: var(--background);
     color: var(--text);
-    background-image: radial-gradient(var(--text) 2px, var(--background) 2px);
-    background-size: 40px 40px;
+    background-color: rgba(206, 226, 255, 1);
+    background-size: 20px 20px;
+    background-image: repeating-linear-gradient(to right, var(--text), var(--text) 1px, var(--background) 1px, var(--background));
     line-height: 1.5;
     -webkit-font-smoothing: antialiased;
     font-family: var(--body-font);

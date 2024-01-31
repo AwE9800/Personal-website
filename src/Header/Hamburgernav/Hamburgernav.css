@@ -9,7 +9,7 @@
     align-items: center;
     gap: 1.5rem;
     background-color: var(--text);
-    animation: slideIn 0.2s ease-in forwards;
+    animation: slideIn 0.3s ease-in forwards;
 }
 
 .Mobile-nav > a {
@@ -27,6 +27,7 @@
 .Mobile-nav > a:hover {
     background-color: var(--background);
     color: var(--primary-color);
+    transform: scale(1.1);
 }
 .Mobile-nav > span {
     width: 100%;

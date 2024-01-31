@@ -4,7 +4,7 @@ import './SkillsCard.css';
 const SkillsCard = ({ skills, skillsToCome, tools }) => {
     return (
         <section className="Skills-card-container">
-            <div className="skills">
+            <div className="skills card">
                 <h4>Skills</h4>
                 <ul>
                     {skills.map((skill, index) => (
@@ -12,7 +12,7 @@ const SkillsCard = ({ skills, skillsToCome, tools }) => {
                     ))}
                 </ul>
             </div>
-            <div className="skills-to-learn">
+            <div className="skills-to-learn card">
                 <h4>Skills to learn</h4>
                 <ul>
                     {skillsToCome.map((skill, index) => (
@@ -20,7 +20,7 @@ const SkillsCard = ({ skills, skillsToCome, tools }) => {
                     ))}
                 </ul>
             </div>
-            <div className="tools">
+            <div className="tools card">
                 <h4>Tools</h4>
                 <ul>
                     {tools.map((tool, index) => (

@@ -1,5 +1,4 @@
 .Info-card {
-    margin-bottom: 5rem;
     padding: 2rem;
     background-color: var(--background);
     display: grid;
@@ -8,6 +7,7 @@
     align-items: center;
     position: relative;
     overflow: hidden;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .background-svg {

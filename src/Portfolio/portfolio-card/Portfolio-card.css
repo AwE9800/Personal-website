@@ -2,8 +2,6 @@
     background-color: var(--background);
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
         rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-    box-shadow: 1px;
-    font-weight: 400;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -14,11 +12,11 @@
 }
 
 .Card-container > img {
+    width: 100%;
     object-fit: cover;
     aspect-ratio: 16/9;
     object-position: top;
     border-radius: 0.5rem;
-    width: 100%;
 }
 
 .links-repo-site {
@@ -32,10 +30,8 @@
 
 .Card-container > .links-repo-site > a {
     width: 100%;
-    font-weight: bold;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
         rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-    /* border: 1px solid black; */
     padding-block: 0.9rem;
     padding-inline: 0.4rem;
     border-radius: 0.4rem;
@@ -44,4 +40,5 @@
 .Card-container > .links-repo-site > a:hover {
     background-color: var(--text);
     color: var(--background);
+    transform: scale(1.1);
 }
