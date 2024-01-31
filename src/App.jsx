@@ -9,8 +9,6 @@ import Footer from './Footer/Footer';
 import Home from './Home/Home';
 
 function App() {
-    const [count, setCount] = useState(0);
-
     return (
         <Router>
             <Header />
