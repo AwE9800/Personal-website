@@ -16,7 +16,6 @@
     display: grid;
     padding-block: 4rem;
     gap: 2rem;
-    margin-bottom: 5rem;
 }
 
 @media (max-width: 1266px) {
