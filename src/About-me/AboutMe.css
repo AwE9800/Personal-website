@@ -23,7 +23,6 @@
     .aboutMe-container-content {
         display: grid;
         grid-template-columns: 1fr;
-        padding-inline: 2rem;
         gap: 4rem;
         margin-bottom: 5rem;
     }

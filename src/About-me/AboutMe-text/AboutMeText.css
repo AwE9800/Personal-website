@@ -29,3 +29,13 @@
     height: 100%;
     border-radius: 0.5rem;
 }
+
+@media (max-width: 900px) {
+    .About-me {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .aboutMeImage {
+        display: none;
+    }
+}

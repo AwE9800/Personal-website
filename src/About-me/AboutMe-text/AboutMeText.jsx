@@ -8,7 +8,7 @@ const AboutMeText = () => {
                 <br />
                 <p>
                     Hello there! I'm Alvin Samuelsson, a passionate frontend developer currently in my first year at KYH. I have a strong
-                    love for creating web experiences. My journey in frontend development has been filled with exciting discoveries and
+                    passion for creating web experiences. My journey in frontend development has been filled with exciting discoveries and
                     challenges. Throughout my studies, I've not only delved into the fundamentals like HTML, CSS, and JavaScript but have
                     also explored modern frameworks like React to elevate my projects to the next level.
                     <br />

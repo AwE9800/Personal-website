@@ -18,7 +18,6 @@ const Fetch = () => {
             .then(data => {
                 setRepoLength(data.length);
                 setData(data.slice(0, 6)); // Update the state with the fetched data
-                console.log(data); // Log the fetched data to the console
             });
     }, []); // Empty dependency array ensures the effect runs only once when the component mounts
     return (
