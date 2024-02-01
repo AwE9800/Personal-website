@@ -46,7 +46,7 @@ li {
     background-color: var(--background);
 }
 
-@media (max-width: 667px) {
+@media (max-width: 900px) {
     .Skills-card-container {
         display: grid;
         grid-template-columns: 1fr;
