@@ -3,6 +3,7 @@
     background-color: var(--background);
     display: grid;
     gap: 10rem;
+    margin-bottom: 2rem;
     grid-template-columns: 1fr 1fr;
     align-items: center;
     position: relative;
