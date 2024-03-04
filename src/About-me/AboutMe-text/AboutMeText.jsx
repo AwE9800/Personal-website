@@ -14,8 +14,7 @@ const AboutMeText = () => {
                     <br />
                     <br />
                     When I'm not in front of the computer coding, I dedicate my time to being with my family and friends, working out, and
-                    watching AIK play football. This balance between coding and personal interests has been the key to my creativity and
-                    well-being
+                    watch football. This balance between coding and personal interests has been the key to my creativity and well-being
                 </p>
             </div>
             <div className="aboutMeImage">
