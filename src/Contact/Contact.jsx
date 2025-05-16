@@ -2,13 +2,6 @@ import './Contact.css';
 import Background from '../assets/Background.jpg';
 
 const Contact = () => {
-    const LinkedInProfile = () => {
-        const linkedinURL = 'https://www.linkedin.com/in/alvin-samuelsson-7b07032a9/';
-
-        // opening the link in a diffrent window
-        window.open(linkedinURL, '_blank');
-    };
-
     return (
         <section className="contact">
             <div className="contact-form">
@@ -18,12 +11,14 @@ const Contact = () => {
                     place to do so.
                 </p>
                 <p>
-                    I'm eager to share my journey, experiences, and interests on LinkedIn. Feel free to visit my LinkedIn profile for
-                    updates on my work and join the conversation.
+                    You can also contact me via email at <a href="mailto:Alvin.Samuelsson1@outlook.com">Alvin.Samuelsson1@outlook.com</a> or
+                    call me at <a href="tel:+46723107013">072-310 70 13</a>.
                 </p>
                 <div className="linkedIn-link">
                     <h5>Connect with me on LinkedIn:</h5>
-                    <button onClick={LinkedInProfile}>LinkedIn</button>
+                    <button onClick={() => window.open('https://www.linkedin.com/in/alvin-samuelsson-7b07032a9/', '_blank')}>
+                        LinkedIn
+                    </button>
                 </div>
             </div>
         </section>

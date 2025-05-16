@@ -1,46 +1,52 @@
 .portfolio-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
 }
 .portfolio-text-container {
-    width: 100%;
-    padding-block: 10rem;
-    padding-inline: 2rem;
-    display: flex;
-    justify-content: center;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-image: url('../assets/AIK.jpg');
+  width: 100%;
+  padding-block: 10rem;
+  padding-inline: 2rem;
+  display: flex;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url('../assets/AIK.jpg');
 }
 .Portfolio-text {
-    max-width: 40rem;
-    text-align: center;
-    background-color: var(--background-transparent);
-    padding: 2rem;
-    padding-block: 6rem;
-    border-radius: 0.5rem;
+  max-width: 40rem;
+  text-align: center;
+  background-color: var(--background-transparent);
+  padding: 2rem;
+  padding-block: 6rem;
+  border-radius: 0.5rem;
 }
 
 .portfolio-cards-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 2rem;
-    padding-inline: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+  padding-inline: 2rem;
 }
 
-.fetch {
-    padding-inline: 2rem;
-    width: 100%;
+.github-link {
+  background-color: var(--background);
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
 }
 
 @media (max-width: 1045px) {
-    .portfolio-cards-container {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        gap: 2rem;
-    }
+  .portfolio-cards-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2rem;
+  }
 }

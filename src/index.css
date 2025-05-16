@@ -1,24 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 :root[data-theme='light'] {
-    --background: rgb(206, 226, 249);
-    --text: rgb(15, 46, 80);
-    --background-transparent: color-mix(in srgb, var(--background) 90%, transparent);
+  --background: rgb(206, 226, 249);
+  --text: rgb(15, 46, 80);
+  --background-transparent: color-mix(in srgb, var(--background) 90%, transparent);
 
-    --text-secondary: rgb(255, 255, 255);
-    --accent: rgba(0, 51, 255, 0.82);
-    --blue: rgb(4, 223, 252);
-    --body-font: 'Roboto', sans-serif;
+  --text-secondary: rgb(255, 255, 255);
+  --accent: rgba(0, 51, 255, 0.82);
+  --blue: rgb(4, 223, 252);
+  --body-font: 'Roboto', sans-serif;
 }
 
 :root[data-theme='dark'] {
-    --background: rgb(15, 46, 80);
-    --text: rgb(206, 226, 249);
-    --background-transparent: color-mix(in srgb, var(--background) 95%, transparent);
-    --text-secondary: rgb(255, 255, 255);
-    --accent: rgba(0, 255, 170, 0.82);
-    --blue: rgb(4, 223, 252);
-    --body-font: 'Roboto', sans-serif;
+  --background: rgb(15, 46, 80);
+  --text: rgb(206, 226, 249);
+  --background-transparent: color-mix(in srgb, var(--background) 95%, transparent);
+  --text-secondary: rgb(255, 255, 255);
+  --accent: rgba(0, 255, 170, 0.82);
+  --blue: rgb(4, 223, 252);
+  --body-font: 'Roboto', sans-serif;
 }
 
 /*
@@ -27,15 +27,15 @@
 *,
 *::before,
 *::after {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 /*
     2. Remove default margin
   */
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 /*
@@ -44,16 +44,16 @@
     4. Improve text rendering
   */
 body {
-    background-color: var(--background);
-    color: var(--text);
-    background-color: rgba(206, 226, 255, 1);
-    background-size: 20px 20px;
-    background-image: repeating-linear-gradient(to right, var(--text), var(--text) 1px, var(--background) 1px, var(--background));
-    line-height: 1.5;
-    -webkit-font-smoothing: antialiased;
-    font-family: var(--body-font);
-    font-weight: bold;
-    transition: color 1s ease, background-color 1s ease;
+  background-color: var(--background);
+  color: var(--text);
+  background-color: rgba(206, 226, 255, 1);
+  background-size: 20px 20px;
+  background-image: repeating-linear-gradient(to right, var(--text), var(--text) 1px, var(--background) 1px, var(--background));
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  font-family: var(--body-font);
+  font-weight: bold;
+  transition: color 1s ease, background-color 1s ease;
 }
 
 /*
@@ -64,8 +64,8 @@ picture,
 video,
 canvas,
 svg {
-    display: block;
-    max-width: 100%;
+  display: block;
+  max-width: 100%;
 }
 
 /*
@@ -75,11 +75,11 @@ input,
 button,
 textarea,
 select {
-    font: inherit;
+  font: inherit;
 }
 a {
-    color: inherit;
-    text-decoration: none;
+  color: inherit;
+  text-decoration: none;
 }
 /*
     7. Avoid text overflows
@@ -91,48 +91,48 @@ h3,
 h4,
 h5,
 h6 {
-    overflow-wrap: break-word;
+  overflow-wrap: break-word;
 }
 h1,
 h2,
 h3,
 h4,
 h5 {
-    font-family: var(--header-font);
-    font-weight: 700;
+  font-family: var(--header-font);
+  font-weight: 700;
 }
 
 html {
-    font-size: 100%;
+  font-size: 100%;
 } /* 16px */
 
 h1 {
-    font-size: 4.21rem; /* 67.36px */
+  font-size: 4.21rem; /* 67.36px */
 }
 
 h2 {
-    font-size: 3.158rem; /* 50.56px */
+  font-size: 3.158rem; /* 50.56px */
 }
 
 h3 {
-    font-size: 2.369rem; /* 37.92px */
+  font-size: 2.369rem; /* 37.92px */
 }
 
 h4 {
-    font-size: 1.777rem; /* 28.48px */
+  font-size: 1.777rem; /* 28.48px */
 }
 
 h5 {
-    font-size: 1.333rem; /* 21.28px */
+  font-size: 1.333rem; /* 21.28px */
 }
 
 small {
-    font-size: 0.75rem; /* 12px */
+  font-size: 0.75rem; /* 12px */
 }
 /*
     8. Create a root stacking context
   */
 #root,
 #__next {
-    isolation: isolate;
+  isolation: isolate;
 }

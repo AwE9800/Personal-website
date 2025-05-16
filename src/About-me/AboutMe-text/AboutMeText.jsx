@@ -4,17 +4,18 @@ const AboutMeText = () => {
     return (
         <section className="About-me">
             <div className="AboutMeText">
-                <h2>Me</h2>
+                <h2>About Me</h2>
+                <p>
+                    I'm a front-end developer based in Sweden, recently graduated from KYH with a focus on front-end development. During my
+                    studies, I gained expertise in everything from HTML, CSS, and JavaScript to back-end technologies like Node.js, Express,
+                    and MongoDB. Below, you'll find an overview of my skills in front-end development, back-end, and the tools I use to
+                    build great web experiences.
+                </p>
+                <br />
                 <br />
                 <p>
-                    Hello there! I'm Alvin Samuelsson, a passionate frontend developer currently in my first year at KYH. I have a strong
-                    passion for creating web experiences. My journey in frontend development has been filled with exciting discoveries and
-                    challenges. Throughout my studies, I've not only delved into the fundamentals like HTML, CSS, and JavaScript but have
-                    also explored modern frameworks like React to elevate my projects to the next level.
-                    <br />
-                    <br />
-                    When I'm not in front of the computer coding, I dedicate my time to being with my family and friends, working out, and
-                    watch football. This balance between coding and personal interests has been the key to my creativity and well-being
+                    When I'm not in front of the computer coding, I spend my time with family and friends, working out, and watching
+                    football. This balance between coding and personal interests has been key to my creativity and overall well-being.
                 </p>
             </div>
             <div className="aboutMeImage">

@@ -14,13 +14,13 @@ const WelcomeCard = () => {
                 />
             </svg>
             <div className="Info-card-text">
-                <h1 className="hello">Hello!</h1>
+                <h1 className="hello">Hi there!</h1>
                 <h1>
                     I'm Alvin <span className="name">Samuelsson.</span>
                 </h1>
                 <h4>
-                    I live in Sweden and am a student front-end developer. I am passionate about creating visually appealing and
-                    user-friendly websites.
+                    I'm a front-end developer from Sweden, recently finished with my studies and ready to take on new challenges in the tech
+                    world. I love creating websites that not only look great, but also feel smooth and intuitive to use.
                 </h4>
             </div>
             <div className="Info-card-image">

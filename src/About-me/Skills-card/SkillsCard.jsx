@@ -1,27 +1,27 @@
 import './SkillsCard.css';
 
 // importig props
-const SkillsCard = ({ skills, skillsToCome, tools }) => {
+const SkillsCard = ({ frontend, backend, tools }) => {
     return (
         <section className="Skills-card-container">
             <div className="skills card">
-                <h4>Skills</h4>
+                <h4>Frontend</h4>
                 <ul>
-                    {skills.map((skill, index) => (
+                    {frontend.map((skill, index) => (
                         <li key={index}>{skill}</li>
                     ))}
                 </ul>
             </div>
             <div className="skills-to-learn card">
-                <h4>Skills to learn</h4>
+                <h4>Backend & Database</h4>
                 <ul>
-                    {skillsToCome.map((skill, index) => (
+                    {backend.map((skill, index) => (
                         <li key={index}>{skill}</li>
                     ))}
                 </ul>
             </div>
             <div className="tools card">
-                <h4>Tools</h4>
+                <h4>My Toolkit</h4>
                 <ul>
                     {tools.map((tool, index) => (
                         <li key={index}>{tool}</li>

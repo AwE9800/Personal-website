@@ -1,54 +1,54 @@
 .Skills-card-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    border-radius: 0.5rem;
-    gap: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  border-radius: 0.5rem;
+  gap: 2rem;
 }
 
 ul {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 li {
-    margin-bottom: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .card {
-    background-color: var(--background);
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
-        rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-    border-radius: 0.5rem;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    padding: 1rem;
+  background-color: var(--background);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 1rem;
 }
 
 .card > h4 {
-    border-bottom: 2px solid var(--text);
-    margin-bottom: 0.5rem;
+  border-bottom: 2px solid var(--text);
+  margin-bottom: 0.5rem;
 }
 
 .skills {
-    color: var(--text);
-    background-color: var(--background);
+  color: var(--text);
+  background-color: var(--background);
 }
 .skills-to-learn {
-    background-color: var(--text);
-    color: var(--background);
+  background-color: var(--text);
+  color: var(--background);
 }
 .skills-to-learn > h4 {
-    border-bottom: 2px solid var(--background);
+  border-bottom: 2px solid var(--background);
 }
 
 .tools {
-    color: var(--text);
-    background-color: var(--background);
+  color: var(--text);
+  background-color: var(--background);
 }
 
 @media (max-width: 900px) {
-    .Skills-card-container {
-        display: grid;
-        grid-template-columns: 1fr;
-    }
+  .Skills-card-container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
 }

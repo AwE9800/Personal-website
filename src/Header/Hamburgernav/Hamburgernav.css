@@ -1,50 +1,47 @@
+/* Hamburger Menu Styles */
 .Mobile-nav {
-    position: absolute;
-    top: 8.2rem;
-    right: 0rem;
-    left: 0rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 1.5rem;
-    background-color: var(--text);
-    animation: slideIn 0.3s ease-in forwards;
+  position: absolute;
+  background-color: var(--text);
+  top: 8.2rem;
+  right: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  animation: slideIn 0.3s ease-in forwards;
+  padding-block: 1rem;
+  border-bottom: 0.05rem solid var(--background);
 }
 
 .Mobile-nav > a {
-    width: 10rem;
-    color: var(--text);
-    background-color: var(--background);
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
-        rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-    text-align: center;
-    padding-block: 0.6rem;
-    border-radius: 0.4rem;
-    transition: all 0.5s ease;
+  text-decoration: none;
+  color: var(--text-secondary);
 }
 
-.Mobile-nav > a:hover {
-    background-color: var(--background);
-    color: var(--primary-color);
-    transform: scale(1.1);
-}
+/* Optional: Add horizontal lines between menu items */
 .Mobile-nav > span {
-    width: 100%;
-    height: 0.05rem;
-    background-color: black;
+  width: 100%;
+  height: 0.05rem;
+  background-color: var(--background);
 }
 
+/* Slide-in animation */
 @keyframes slideIn {
-    from {
-        transform: translate(100%, 0%);
-    }
-    to {
-    }
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
 }
 
+/* Hide the Mobile-nav on large screens */
 @media (min-width: 941px) {
-    .Mobile-nav {
-        display: none;
-    }
+  .Mobile-nav {
+    display: none;
+  }
 }

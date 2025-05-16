@@ -5,11 +5,10 @@ import './Hamburgernav.css';
 const Hamburgernav = ({ setOpen }) => {
     return (
         <nav className="Mobile-nav">
-            <span></span>
             <Link onClick={() => setOpen(false)} to="/">
                 Home
             </Link>
-            <span></span>
+            <span className=""></span>
             <Link onClick={() => setOpen(false)} to="/AboutMe">
                 About Me
             </Link>
@@ -21,7 +20,6 @@ const Hamburgernav = ({ setOpen }) => {
             <Link onClick={() => setOpen(false)} to="/Contact">
                 Contact
             </Link>
-            <span></span>
         </nav>
     );
 };
